@@ -32,7 +32,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="./map/" target="_blank">
+				<a href="https://magnif.as.arizona.edu/sapphires/public/EDR/map/" target="_blank">
 					<span class="icon is-small">
 						<i class="fa-solid fa-map" aria-hidden="true"></i>
 					</span>
@@ -71,7 +71,7 @@
          <strong>News:</strong> Early Data Release of MACSJ0416 parallel Field is available (Feb 21, 2025)!
 			Check our   <span class="icon-text">
 			<span class="icon"><i class="fa-solid fa-map"></i></span>
-			<span><a href="./map/" target="_blank"><b>Online FITSmap Navigator</b></a></span>
+			<span><a href="https://magnif.as.arizona.edu/sapphires/public/EDR/map/" target="_blank"><b>Online FITSmap Navigator</b></a></span>
 			</span>
 		</div>
 		
@@ -112,7 +112,7 @@
 			<p>Photometric catalog was constructed using an inverse-varianced-stacked images from F182M to F444W bands. The detection image was iteratively median-filtered to overshred larger galaxies and improve the detectability of blended fainter sources. We then ran a <a href="https://photutils.readthedocs.io/en/latest/">photutils</a> pipeline to detect sources and perform aperture photometry, and an <a href="https://eazy-py.readthedocs.io/en/latest/">EAZY-py</a> pipeline to compute photometric redshifts.
 			</p>
 			<p>
-				The <a class="button is-info is-light" href="./sapphires_edr_phot_cat.fits" target="_blank">combined photometry + photo-z catalog </a> is available as a multi-extension fits file. 
+				The <a class="button is-info is-light" href="https://www.dropbox.com/scl/fi/fob2wohf78y4mpcyi8p5r/sapphires_edr_phot_cat.fits?rlkey=7k2vkq753gi94hs9hs64euh6m&st=m26a7fh7&dl=0" target="_blank">combined photometry + photo-z catalog </a> is available as a multi-extension fits file. 
 				Documentation of the catalog is being prepared (also see fits headers for comments).
 			</p>
 			
@@ -121,7 +121,7 @@
 			<p>We obtain spectroscopic redshifts from grism line detections using a semi-automatic routine that will be presented by Lin, X. et al. (2025, in prep.). All redshifts solution have been visually inspected, and we include multiple iterations to mask spectral line contaminations and reject / correct wrong redshift identifications. The spectroscopic redshift catalog contains 1063 sources at \(z_\mathrm{spec}=0.0 - 8.5\). We then ran <a href="https://bagpipes.readthedocs.io/en/latest/">Bagpipes</a> on Kron-aperture photometry for spec-z-confirmed sources to obtain their physical properties, such as stellar masses and star-formation rates.
 			</p>
 			<p>
-				The <a class="button is-info is-light" href="./sapphires_edr_spec_cat.fits" target="_blank">combined spec-z + physical properties catalog </a> is available as a multi-extension fits file. 
+				The <a class="button is-info is-light" href="https://www.dropbox.com/scl/fi/blymeoghmeeaplnzpb0qh/sapphires_edr_spec_cat.fits?rlkey=cslzf1ym33si94x71kg5ve1cl&st=p0m37jhr&dl=0" target="_blank">combined spec-z + physical properties catalog </a> is available as a multi-extension fits file. 
 				Documentation of the catalog is being prepared (also see fits headers for comments).
 			</p>
 			
@@ -131,13 +131,13 @@
 			<p> We release the 1D, 2D spectra and visualization plots of redshift-confirmed sources. These spectra were extract using the aforementioned photometric catalog through the <a href="https://github.com/fengwusun/nircam_grism/">publicly available (on GitHub)</a> processing routine and calibration documented by <a href="https://ui.adsabs.harvard.edu/abs/2023ApJ...953...53S/abstract">Sun, F. et al. (2023, ApJ)</a>.
 			</p>
 			<ul>
-				<li><a class="button is-info is-light" href="./sapphires_edr_2d_spec.tar.gz" target="_blank">2D Spectra</a> is the tarball (~2.0GB) for all 2D spectra taken with F356W / F444W filter and Grism R / C. Spectra taken with different filter &times; grism combinations were extracted separately. Source information is available in the primary HDU header. Please use <code>spec2d</code> extension for spectra without continuum subtraction, and <code>line2d</code> extension for spectra with default continuum subtraction. Wavelength definition is in the header of <code>spec2d</code> extension. <code>stats</code> extension records the information of input grism exposures.
+				<li><a class="button is-info is-light" href="https://www.dropbox.com/scl/fi/58xgv6d1cgijj1bo17vpc/sapphires_edr_2d_spec.tar.gz?rlkey=b8zgiumd84fmrzrp6uxhqp78p&st=4rj9oxnw&dl=0" target="_blank">2D Spectra</a> is the tarball (~2.0GB) for all 2D spectra taken with F356W / F444W filter and Grism R / C. Spectra taken with different filter &times; grism combinations were extracted separately. Source information is available in the primary HDU header. Please use <code>spec2d</code> extension for spectra without continuum subtraction, and <code>line2d</code> extension for spectra with default continuum subtraction. Wavelength definition is in the header of <code>spec2d</code> extension. <code>stats</code> extension records the information of input grism exposures.
 				</li><br>
 				
-				<li><a class="button is-info is-light" href="./sapphires_edr_1d_spec.tar.gz" target="_blank">1D Spectra</a> is the tarball (~150 MB) for all 1D spectra taken with the aforementioned filter &times; grism combinations, also extracted separately. These spectra were extracted using boxcar aperture (<code>box</code>)  / optimal method (<code>opt</code>) with continuum-unsubtracted (<code>spec1d</code>) / line-only (<code>line1d</code>) 2d spectra. Default units are [micron] and [mJy]. Boxcar spectra (H = 5pix = 0.31") are corrected for aperture loss.
+				<li><a class="button is-info is-light" href="https://www.dropbox.com/scl/fi/u9oad9wcnhs0ha84ypw41/sapphires_edr_1d_spec.tar.gz?rlkey=fpdubvc86cv776nyqoyfwsr2v&st=jz9gj8d5&dl=0" target="_blank">1D Spectra</a> is the tarball (~150 MB) for all 1D spectra taken with the aforementioned filter &times; grism combinations, also extracted separately. These spectra were extracted using boxcar aperture (<code>box</code>)  / optimal method (<code>opt</code>) with continuum-unsubtracted (<code>spec1d</code>) / line-only (<code>line1d</code>) 2d spectra. Default units are [micron] and [mJy]. Boxcar spectra (H = 5pix = 0.31") are corrected for aperture loss.
 				</li><br>
 				
-				<li><a class="button is-info is-light" href="./sapphires_edr_spec_pdf.tar.gz" target="_blank">Spectral Plots</a> is the tarball (~1.5GB) for all visual inspection plots of images, 2D spectra (before / after continuum removal) and 1D spectra. In the 1D spectral panel, the black line shows the line-only spectrum with continuum removed, and the grey line shows the continuum-unsubtracted spectrum, which is only plotted when the source is bright enough. These 1D spectra are output in the 1d spectral data products.
+				<li><a class="button is-info is-light" href="https://www.dropbox.com/scl/fi/8amtnjf3m2vcmrefjakzh/sapphires_edr_spec_pdf.tar.gz?rlkey=9skta5a3f4p43o3w91j7d5qwg&st=mtaoyroh&dl=0" target="_blank">Spectral Plots</a> is the tarball (~1.5GB) for all visual inspection plots of images, 2D spectra (before / after continuum removal) and 1D spectra. In the 1D spectral panel, the black line shows the line-only spectrum with continuum removed, and the grey line shows the continuum-unsubtracted spectrum, which is only plotted when the source is bright enough. These 1D spectra are output in the 1d spectral data products.
 				</li><br>
 			</ul>
 			
