@@ -1,1 +1,164 @@
-Hello World
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SAPPHIRES (JWST-GO-6434) Early Data Release</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script src="https://kit.fontawesome.com/c7de5777bd.js" crossorigin="anonymous"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+
+<body>
+	
+	<nav class="breadcrumb has-bullet-separator is-medium is-right mt-4 mr-4" aria-label="breadcrumbs" style="margin-bottom: -1.5em">
+		<ul>
+			<li class="is-active">
+				<a href="#">
+					<span class="icon is-small">
+						<i class="fa-solid fa-house" aria-hidden="true"></i>
+					</span>
+					<span>Home</span>
+				</a>
+			</li>
+			<li class="">
+				<a href="./team.html">
+					<span class="icon is-small">
+						<i class="fa-solid fa-user-group" aria-hidden="true"></i>
+					</span>
+					<span>Team</span>
+				</a>
+			</li>
+			<li>
+				<a href="./map/" target="_blank">
+					<span class="icon is-small">
+						<i class="fa-solid fa-map" aria-hidden="true"></i>
+					</span>
+					<span>FITSmap</span>
+				</a>
+			</li>
+			<li class="">
+				<a href="./publication.html">
+					<span class="icon is-small">
+						<i class="fa-solid fa-book" aria-hidden="true"></i>
+					</span>
+					<span>Publication</span>
+				</a>
+			</li>
+			<li>
+				<a href="mailto:fengwu.sun@cfa.harvard.edu,egami@arizona.edu?subject=SAPPHIRES" target="_blank">
+					<span class="icon is-small">
+						<i class="fa-solid fa-envelope" aria-hidden="true"></i>
+					</span>
+					<span>Contact</span>
+				</a>
+			</li>
+		</ul>
+	</nav>
+	
+	<section class="section">
+	<a href="./index.html"><img src="./sapphires_logo.jpg" alt="logo" width="280" style="float:right; margin-right:15px; margin-top:0px;" ></a>
+
+	<h1 style="font-size: 1.75em;font-weight: bold">JWST Cycle-3 SAPPHIRES (GO-6434) Early Data Release (EDR)</h1>
+	<hr>
+		<p><b style="color:#0852C5">Slitless Areal Pure-Parallel HIgh-Redshift Emission Survey (SAPPHIRES)</b> is a JWST Cycle-3 Treasury imaging and spectroscopic survey using the powerful NIRCam wide-field slitless spectroscopic (WFSS) mode in pure parallel. The <a href="https://www.stsci.edu/jwst/phase2-public/6434.pdf">Public PDF</a>, <a href="https://www.stsci.edu/jwst/phase2-public/6434.aptx">APT file</a> and <a href="https://www.stsci.edu/jwst-program-info/visits/?program=6434">Observation Schedule</a> are available on STScI website.
+       </p>
+		<br>
+		
+		<div class="notification is-link">
+         <strong>News:</strong> Early Data Release of MACSJ0416 parallel Field is available (Feb 21, 2025)!
+			Check our   <span class="icon-text">
+			<span class="icon"><i class="fa-solid fa-map"></i></span>
+			<span><a href="./map/" target="_blank"><b>Online FITSmap Navigator</b></a></span>
+			</span>
+		</div>
+		
+		<div class="content">
+			<figure style="width: 60%;margin-left: auto;margin-right: auto" class="is-center">
+				<img src="./edr_fitsmap_screenshot.png" />
+				<figcaption>Figure 1: FITSmap view of the images and spectra of a galaxy at \(z=8.42\) (Fudamoto, Y. et al. 2025, in prep.)</figcaption>
+			</figure>
+			
+			<h3>Access to our EDR:</h3>
+			<p>SAPPHIRES EDR focuses on NIRCam imaging and WFSS data obtained in parallel to Frontier Field 
+				galaxy cluster MACS J0416.1-2403. The observations were attached to primary observations 
+				<a href="https://www.stsci.edu/jwst/science-execution/program-information?id=4750">JWST-GO-4750</a> (PI: K. Nakajima). With a total dual-channel exposure time of 47.2 hours, we obtain deep NIRCam imaging in 13 bands at 0.6-5.0 micron and deep WFSS at 3.1-5.0 micron through the F356W and F444W filters with grisms in orthogonal dispersion directions.
+			</p>
+			<p>For detailed descriptions of SAPPHIRES EDR and SAPPHIRES in general, please refer to <a href="https://www.dropbox.com/scl/fi/23q1jnv63qpl75ne7tsdr/SAPPHIRES_EDR_M0416_GO_4750.pdf?rlkey=htoxp9h0fukc7ucpc75qsm07r&dl=0">Sun, F. &amp; Fudamoto, Y. &amp; Lin, X. et al. (2025, in prep.)</a>. </p>
+			
+			<br>
+			<h4>NIRCam Imaging Data</h4>
+			<p>NIRCam imaging observations were obtained with 13 filters, including F070W, F090W, F115W, F140M, F150W, F182M, F200W, F210M (short-wavelength, SW), F277W, F335M, F356W, F410M and F444W (long-wavelength, LW) over a total area of 16.9 arcmin\(^2\). The \(5\sigma\) depths (measured with \(r=0.15^{\prime\prime}\) aperture, point-source) of the images are 28.4~29.5 AB mag across all filters. The NIRCam image mosaics will be shared through <a href="https://archive.stsci.edu/hlsp/sapphires">SAPPHIRES MAST HLSP website</a>. </p>
+			
+			<p>
+			Dropbox links to the tarballs of 13-band imaging data: 
+			<a href="https://www.dropbox.com/scl/fi/7rcnmhb4cerb64eb8q2kv/sapphires_edr_nircam_sci.tar.gz?rlkey=84mbu3h33h36eeg2q4gkbja72&st=n3i13yaw&dl=0" target="_blank" class="button is-info is-light">SCI extensions (2.9 GB)</a>
+			<a href="https://www.dropbox.com/scl/fi/q9gurv8s7k3a1waoq14xe/sapphires_edr_nircam_err.tar.gz?rlkey=6oqc5tzqfz5oizr083eyhdd00&st=73npl0vz&dl=0" target="_blank" class="button is-info is-light">ERR extensions (2.6 GB)</a>
+			<a href="https://www.dropbox.com/scl/fi/s6yki8uu2uvyxgp6anhf1/sapphires_edr_nircam_wht.tar.gz?rlkey=5iq7d4tzkgn1gp5zyart0c13m&st=wd57f1f2&dl=0" target="_blank" class="button is-info is-light">WHT extensions (2.6 GB)</a>
+			<a href="https://www.dropbox.com/scl/fi/kft3vychhsn8qlnq0xaxs/sapphires_edr_nircam_i2d.tar.gz?rlkey=p0w2g66m272ldaohtn72wd0pp&st=ivbp0jsy&dl=0" target="_blank" class="button is-info is-light">I2D FITS (full extensions; 16 GB)</a>
+			
+			</p>
+			
+			
+			<figure style="width: 60%;margin-left: auto;margin-right: auto" class="is-center">
+				<img src="./sapphires_4750_img_texp_depth_map.png" />
+				<figcaption>Figure 2: Depth map of SAPPHIRES EDR NIRCam imaging observations</figcaption>
+			</figure>
+			
+			<br>
+			<h4>Photometry + Photometric Redshift Catalog</h4>
+			<p>Photometric catalog was constructed using an inverse-varianced-stacked images from F182M to F444W bands. The detection image was iteratively median-filtered to overshred larger galaxies and improve the detectability of blended fainter sources. We then ran a <a href="https://photutils.readthedocs.io/en/latest/">photutils</a> pipeline to detect sources and perform aperture photometry, and an <a href="https://eazy-py.readthedocs.io/en/latest/">EAZY-py</a> pipeline to compute photometric redshifts.
+			</p>
+			<p>
+				The <a class="button is-info is-light" href="./sapphires_edr_phot_cat.fits" target="_blank">combined photometry + photo-z catalog </a> is available as a multi-extension fits file. 
+				Documentation of the catalog is being prepared (also see fits headers for comments).
+			</p>
+			
+			<br>
+			<h4>Spectroscopic Redshift + Physical Properties Catalog </h4>
+			<p>We obtain spectroscopic redshifts from grism line detections using a semi-automatic routine that will be presented by Lin, X. et al. (2025, in prep.). All redshifts solution have been visually inspected, and we include multiple iterations to mask spectral line contaminations and reject / correct wrong redshift identifications. The spectroscopic redshift catalog contains 1063 sources at \(z_\mathrm{spec}=0.0 - 8.5\). We then ran <a href="https://bagpipes.readthedocs.io/en/latest/">Bagpipes</a> on Kron-aperture photometry for spec-z-confirmed sources to obtain their physical properties, such as stellar masses and star-formation rates.
+			</p>
+			<p>
+				The <a class="button is-info is-light" href="./sapphires_edr_spec_cat.fits" target="_blank">combined spec-z + physical properties catalog </a> is available as a multi-extension fits file. 
+				Documentation of the catalog is being prepared (also see fits headers for comments).
+			</p>
+			
+			
+			<br>
+			<h4>NIRCam Grism Spectra of Redshift-Confirmed Sources</h4>
+			<p> We release the 1D, 2D spectra and visualization plots of redshift-confirmed sources. These spectra were extract using the aforementioned photometric catalog through the <a href="https://github.com/fengwusun/nircam_grism/">publicly available (on GitHub)</a> processing routine and calibration documented by <a href="https://ui.adsabs.harvard.edu/abs/2023ApJ...953...53S/abstract">Sun, F. et al. (2023, ApJ)</a>.
+			</p>
+			<ul>
+				<li><a class="button is-info is-light" href="./sapphires_edr_2d_spec.tar.gz" target="_blank">2D Spectra</a> is the tarball (~2.0GB) for all 2D spectra taken with F356W / F444W filter and Grism R / C. Spectra taken with different filter &times; grism combinations were extracted separately. Source information is available in the primary HDU header. Please use <code>spec2d</code> extension for spectra without continuum subtraction, and <code>line2d</code> extension for spectra with default continuum subtraction. Wavelength definition is in the header of <code>spec2d</code> extension. <code>stats</code> extension records the information of input grism exposures.
+				</li><br>
+				
+				<li><a class="button is-info is-light" href="./sapphires_edr_1d_spec.tar.gz" target="_blank">1D Spectra</a> is the tarball (~150 MB) for all 1D spectra taken with the aforementioned filter &times; grism combinations, also extracted separately. These spectra were extracted using boxcar aperture (<code>box</code>)  / optimal method (<code>opt</code>) with continuum-unsubtracted (<code>spec1d</code>) / line-only (<code>line1d</code>) 2d spectra. Default units are [micron] and [mJy]. Boxcar spectra (H = 5pix = 0.31") are corrected for aperture loss.
+				</li><br>
+				
+				<li><a class="button is-info is-light" href="./sapphires_edr_spec_pdf.tar.gz" target="_blank">Spectral Plots</a> is the tarball (~1.5GB) for all visual inspection plots of images, 2D spectra (before / after continuum removal) and 1D spectra. In the 1D spectral panel, the black line shows the line-only spectrum with continuum removed, and the grey line shows the continuum-unsubtracted spectrum, which is only plotted when the source is bright enough. These 1D spectra are output in the 1d spectral data products.
+				</li><br>
+			</ul>
+			
+			<figure style="width: 60%;margin-left: auto;margin-right: auto" class="is-center">
+				<img src="./sapphires_edr_spectra_stack.png" />
+				<figcaption>Figure 3: Spectral stack and redshift histogram of SAPPHIRES EDR sources</figcaption>
+			</figure>
+			
+		</div>
+		
+		
+		<p>For any question or issue with SAPPHIRES, please do not hesitate to <span class="icon-text">
+  <span class="icon">
+    <i class="fa-solid fa-envelope"></i>
+  </span>
+  <span><a href="mailto:fengwu.sun@cfa.harvard.edu,egami@arizona.edu?subject=SAPPHIRES">contact us via email</a></span>
+</span>.
+		</p>
+		
+<!--	<a class="button is-info" href="#"  style="position:fixed;right:2%;bottom:2%">Top</a>-->
+		
+	</section>
+</body>
+</html>
